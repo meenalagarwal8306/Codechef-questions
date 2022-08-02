@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int x,y,z,r,s;
+	    cin>>x>>y>>z;
+	    s=y/x;
+	    r=z-s;
+	    if(r<0)
+	    {
+	        cout<<0<<endl;
+	    }
+	    else
+	    {
+	        cout<<r<<endl;
+	    }
+	    
+	}
+	return 0;
+}
