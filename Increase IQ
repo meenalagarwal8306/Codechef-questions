@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+	int x;
+	cin>>x;
+	int sum=7;
+	sum+=x;
+	if(sum>170)
+	{
+	    cout<<"yes"<<endl;
+	}
+	else
+	{
+	    cout<<"no"<<endl;
+	}
+	return 0;
+}
