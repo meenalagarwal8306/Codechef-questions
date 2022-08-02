@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int x,y,cost1,cost2;
+	    cin>>x>>y;
+	    cost1=3*x;
+	    cost2=2*y;
+	    if(cost1<cost2)
+	    {
+	        cout<<cost1<<endl;
+	    }
+	    else
+	    {
+	        cout<<cost2<<endl;
+	    }
+	}
+	return 0;
+}
