@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	    {
+	        int n;
+	        int s=0;
+	        int l=0;
+	        cin>>n;
+	        string c[n];
+	        for(int i=0;i<n;i++)
+	        {
+	           cin>>c[i];
+	        }
+	        for(int i=0;i<n;i++)
+	        {
+	           if(c[i]=="START38")
+	           {
+	               s++;
+	           }
+	           else 
+	           {
+	               l++;
+	           }
+	        }
+	        cout<<s<<" "<<l<<endl;
+	    }
+	return 0;
+}
