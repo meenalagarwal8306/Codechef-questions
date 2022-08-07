@@ -1,0 +1,29 @@
+#include <iostream>
+#include<string>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    string s;
+	    string t;
+	    string m="   ";
+	    cin>>s>>t;
+	    for(int i=0;i<5;i++)
+	    {
+	        if(s[i]==t[i])
+	        {
+	            cout<<"g";
+	        }
+	        else
+	        {
+	            cout<<"b";
+	        }
+	    }
+	   cout<<m<<endl; 
+	}
+	return 0;
+}
