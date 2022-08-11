@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int i=1,t=0,n;
+	    cin>>n;
+	    while(1)
+	    {
+	        if((i*(i+1))/2>n)
+	        {
+	            t=i-1;
+	            break;
+	        }
+	        i++;
+	    }
+	    cout<<t<<endl;
+	}
+	return 0;
+}
