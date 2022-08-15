@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+		int a;
+	cin>>a;
+	while(a--){
+	    int b;
+	    cin>>b;
+	    int c;
+	    if(b<=100)
+	    c=0;
+	    else if(b>100 && b<=1000)
+	    c=25;
+	    else if(b>1000 && b<=5000)
+	    c=100;
+	    else c=500;
+	    cout<<b-c<<endl;
+	}
+	return 0;
+}
